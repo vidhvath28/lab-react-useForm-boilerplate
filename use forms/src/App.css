@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100vw;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+pre {
+  width: 70%;
+  font-size: larger;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #eaeaea;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background: #17b405;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+p {
+  color: red;
+  font-size: 14px;
+  text-align: end;
+}
+
+.success {
+  width: 100%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(51, 107, 212);
+  color: white;
+}
